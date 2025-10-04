@@ -1,0 +1,16 @@
+/*colors*/
+.text-box > h3:first-of-type {
+    color: rgb(230, 137, 239);
+}
+#greycol {
+    color: rgba(155, 155, 155, 0.789);
+}
+.text-box > div > p{
+    color: rgb(255, 0, 0);
+}
+.text-box > p:nth-of-type(3) {
+    color: rgb(54, 251, 77);
+}
+.yellow  {
+    color: rgba(255, 222, 6, 0.97);
+}

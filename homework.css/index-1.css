@@ -1,0 +1,102 @@
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+/*розклад*/
+.head {
+    text-align: center;
+  background-color: rgba(217, 224, 195, 0.959);
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: inset 0 0 10px rgba(61, 8, 152, 0.5);
+}
+/*понеділок*/
+#days th:first-of-type:hover {
+ color:rgb(179, 137, 243);
+  background-color: rgba(46, 109, 25, 0.959);
+  cursor: pointer;
+}
+/*понеділок при наведення*/
+#days th:first-of-type {
+  color: rgb(0, 60, 255);
+  background-color: rgba(237, 19, 193, 0.959);
+}
+/*вівторок*/
+#days th:nth-of-type(2){
+  color: rgb(243, 137, 137);
+  background-color: rgba(76, 6, 62, 0.959);
+}
+/*вівторок при натисканні*/
+#days th:nth-of-type(2):active {
+  color: rgb(45, 51, 222);
+  background-color: rgba(216, 155, 126, 0.959);
+}
+/*середа*/
+#days th:nth-child(3)  {
+  color: rgb(255, 0, 0);
+  background-color: rgba(130, 211, 0, 0.959);
+}
+/*середа при ссилкe*/
+#days th:nth-child(3)a:visited {
+  color: rgb(0, 239, 248);
+  text-decoration: none;
+}
+/* четвер */
+#days th:nth-child(4):hover {
+  color: rgb(255, 100, 100);
+  background-color: rgba(0, 200, 200, 0.5);
+}
+/*п'ятниця*/
+#days th:last-child {
+  color: rgb(89, 238, 2);
+  background-color: rgba(255, 255, 0, 0.8);
+}
+/*п'ятниця при натисканні*/
+#days th:last-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(51, 88, 255, 1);
+}
+#days th:last-child:active {
+  color: rgb(0, 0, 0);
+  background-color: rgba(243, 243, 137, 0.8);
+}
+/*математика*/
+.lessons td:first-of-type:hover {
+    color: rgba(130, 211, 0, 0.959);
+    box-shadow: inset 0 0 10px rgba(224, 61, 61, 0.5);
+}
+/*фізика*/
+.lessons td:nth-of-type(2) {
+    background-color: rgba(137, 243, 243, 0.959);
+}
+/*фізика скок*/
+.lessons td:nth-of-type(2):active {
+    background-color: red;
+    color: white;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/*фіз.культура*/
+.lessons td:nth-child(3):hover {
+    color: rgba(243, 137, 243, 0.959);
+    background-color: black;
+}
+/*література*/
+.lessons td:nth-child(4) {
+    color: rgb(35, 14, 0);
+    background-color: rgba(84, 84, 0, 0.959);
+}
+/*література klick*/
+.lessons td:nth-child(4):active {
+    background-color: rgba(1, 65, 30, 0.959);
+      transform: rotate(5deg);
+  transition: transform 0.6s;
+}
+/*біологія*/
+.lessons td:last-child {
+    color: rgb(176, 37, 37);
+    background-color: rgba(154, 148, 148, 0.959);
+    box-shadow: inset 0 0 10px rgba(43, 55, 3, 0.959);
+}
